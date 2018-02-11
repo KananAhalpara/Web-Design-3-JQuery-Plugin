@@ -91,7 +91,7 @@ nav ul li a h5{
 /*------------ The Header Main Image ----------- */
 .header-background{
 	height: 750px;
-	background-image: url(../images/donut.png);
+	background-image: url(../images/donut.PNG);
 	background-position: center;
 	background-size: cover;
 	background-color: #ebebeb;
@@ -183,7 +183,7 @@ button a:hover{
 /*------------ The Middle Image ----------- */
 .middle-background{
 	height: 450px;
-	background-image: url(../images/middle.png);
+	background-image: url(../images/middle.PNG);
 	background-color: #ebebeb;
 	background-position: center;
 	background-repeat: none;
