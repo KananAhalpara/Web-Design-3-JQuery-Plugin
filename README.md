@@ -2,6 +2,7 @@
 Web Development assignment to use three js...light-box,menu active and down slide toggle
 
 <br><br>
+ Your site is published at https://kananahalpara.github.io/Web-Design-3-JQuery-Plugin/
 <br><br>
 ASSIGNMENT : AS FOLLOWS :
 <br>
