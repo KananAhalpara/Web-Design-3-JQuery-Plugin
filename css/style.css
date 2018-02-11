@@ -1,0 +1,210 @@
+
+html{
+	text-align: justify;
+	overflow: auto;
+}
+
+body{
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	line-height: 1.4em;
+}
+
+h1,h2,h3,h4{
+	font-family: 'Damion', cursive;
+	font-weight: 400;
+	color: #f65380;
+}
+
+
+/* ------------- Navigation ------------- */
+header{
+	width: 100%;
+}
+
+nav{
+	position: fixed;
+	width: 100%;
+	text-align: left;
+	background-color: rgba(255, 255, 255,0.9);
+	z-index: 999;
+}
+
+nav ul{
+	width: 100%;
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav ul li{
+	float: left;
+	text-transform: uppercase;
+	margin:2em 3em 0 3em;
+	border-bottom: none;
+}
+
+nav ul li a{
+	text-decoration: none;
+	letter-spacing: 0.5em;
+	font-weight: 700;
+	color: #f65380;
+}
+
+nav ul li a:hover{
+	text-decoration: none;
+	letter-spacing: 0.5em;
+	font-weight: 700;
+	color: #000;
+}
+
+.active{
+	text-decoration: none;
+	letter-spacing: 0.5em;
+	font-weight: 700;
+	color: #000;
+	border-bottom: 5px solid #000;
+}
+
+.logo{
+	margin: 0.5em 4em 0 4em;
+	padding: 0;
+}
+
+nav ul li a h1{
+	text-transform: none;
+	letter-spacing: 0;
+	text-align: left;
+ }
+
+nav ul li a h5{
+	text-transform: none;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 0.2em;
+	text-align: left;
+	font-size: 0.7em;
+	color: #000;
+}
+/* --------------------------------------- */
+
+
+/*------------ The Header Main Image ----------- */
+.header-background{
+	height: 750px;
+	background-image: url(../images/donut.png);
+	background-position: center;
+	background-size: cover;
+	background-color: #ebebeb;
+	background-repeat: none;
+	background-position: fixed;
+}
+
+.container-fluid .col-md-4{
+	margin-top:300px;
+}
+
+.container-fluid .col-md-4 h1{
+	font-size: 5em;
+}
+
+button{
+	background-color: #fff;
+	border: solid 2px #fff;
+	border-radius: 50px;
+	height: 40px
+}
+
+button a{
+	padding: 2em;
+	color: #f65380;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 4px;
+}
+
+button a:hover{
+	padding: 2em;
+	color: #f4c954;
+	font-weight: 700;
+	letter-spacing: 4px;
+	text-decoration: none;
+}
+
+.down-button{
+	padding: 2em;
+	width: auto;
+	height: 100px;
+	border-radius: 50px;
+	background-color: #ffd7d6;
+	color:#f65380;
+	margin:auto;
+	z-index: 99;
+	margin-top: 250px;
+}
+
+.down-button:hover{
+	color: #f4c954;
+}
+/* --------------------------------------------- */
+
+
+/*------------ The Popular Container ----------- */
+ #donut-1, #slide-1,#donut-2,#slide-2,#donut-3,#slide-3{
+    padding: 2em;
+    text-align: center;
+    background-color: #ededed;
+    cursor:pointer; 
+    color: #343838;
+}
+
+#slide-1 ,#slide-2,#slide-3{
+    padding: 50px;
+    display: none;
+    background-color: #f7f7f7;
+}
+
+#donut-1 img{
+	max-height: 200px;
+	max-width: auto;
+}
+
+#donut-2 img{
+	max-height: 200px;
+	max-width: auto;
+}
+
+#donut-3 img{
+	max-height: 200px;
+	max-width: auto;
+}
+/*------------------------------------------ */
+
+
+/*------------ The Middle Image ----------- */
+.middle-background{
+	height: 450px;
+	background-image: url(../images/middle.png);
+	background-color: #ebebeb;
+	background-position: center;
+	background-repeat: none;
+	background-position: fixed;
+}
+/*----------------------------------------- */
+
+
+/*----------Gallery ---------------*/
+.image-1 img,.image-2 img ,.image-3 img{
+	height: 250px;
+	width: auto;
+	padding: 2em;
+}
+/*--------------------------------*/
+
+
+/*------------- Footer ------------------- */
+footer{
+	text-align: center;
+	font-weight: 700;
+	padding: 2em;
+}
+/*------------------------------------------------------------------------------------------------------------------------*/
